@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>PIXI Shape Drop</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div id="info-container">
+    <div>
+        <label>Shapes: <input type="text" id="shape-count" readonly /></label>
+        <label>Area: <input type="text" id="shape-area" readonly /></label>
+    </div>
+</div>
+<div id="canvas-container"></div>
+<div id="controls">
+    <div class="control-group">
+        <div class="button-group">
+            <button id="spawn-dec">−</button>
+            <button id="spawn-inc">+</button>
+        </div>
+        <input type="text" id="spawn-rate" readonly />
+        <span>Number of shapes per sec</span>
+    </div>
+
+    <div class="control-group">
+        <div class="button-group">
+            <button id="gravity-dec">−</button>
+            <button id="gravity-inc">+</button>
+        </div>
+        <input type="text" id="gravity-value" readonly />
+        <span>Gravity Value</span>
+    </div>
+</div>
+<script src="bundle.js"></script>
+</body>
+</html>
