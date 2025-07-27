@@ -19,7 +19,6 @@ export class AppController {
         this.ui.onIncGravity(() => {
             this.gravity += 0.05;
             this.gravity = Number(this.gravity.toFixed(2));
-            console.log(this.gravity);
             this.ui.updateGravity(this.gravity);
         });
 
@@ -27,7 +26,6 @@ export class AppController {
             this.gravity -= 0.05;
             this.gravity = Number(this.gravity.toFixed(2));
             this.gravity = Math.max(0, this.gravity);
-            console.log(this.gravity)
             this.ui.updateGravity(this.gravity);
         });
 
