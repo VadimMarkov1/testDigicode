@@ -11,7 +11,7 @@ body {
 }
 
 #info-container label {
-    margin-right: 30px; /* или margin-left */
+    margin-right: 30px;
 }
 
 #controls {
